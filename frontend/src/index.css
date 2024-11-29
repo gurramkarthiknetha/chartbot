@@ -1,0 +1,101 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr; 
+} 
+.first{
+    grid-column: 1/3;
+} 
+.second{
+    grid-column: 3/4;
+}
+.hall{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hall{
+    background-color: rgb(81,171,153);
+}
+.back{
+    background-color:rgb(43,46,71);
+}
+.book-button{
+    background-color: rgb(222,226,252);
+    text-decoration: rgb(223,244,205);
+}
+.book-button:hover{
+    background-color: rgb(222,226,252);
+
+}
+.register{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.first{
+    grid-column: 1/3;
+}
+.second{
+    grid-column: 3/4;
+}
+.register {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .first {
+    grid-column: 1/3;
+  }
+  
+  .second {
+    grid-column: 3/4;
+  }
+  
+  .first img {
+    width: 100%;
+  }
+  
+  .card-title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
+  .form-container {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Smooth shadow */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+  }
+    
+  /* Gray gradient background */
+.home-container {
+  background: linear-gradient(135deg, #d3d3d3, #a9a9a9);
+  background-size: cover;
+  color: white;
+}
+
+/* Text styling for readability */
+.home-container h1, 
+.home-container p {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Floating Chat Button hover effect */
+.btn-circle:hover {
+  background-color: #17a2b8;
+  color: white;
+  transform: scale(1.1);
+  transition: transform 0.2s, background-color 0.2s;
+}
